@@ -1,4 +1,4 @@
-package com.example.cor.domain;
+package com.example.cor.handler;
 
 /**
  * Element of a chain

@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.example.cor.domain.Request;
-import com.example.cor.domain.RequestHandlerChainElement;
+import com.example.cor.handler.RequestHandlerChainElement;
 
 import java.util.List;
 

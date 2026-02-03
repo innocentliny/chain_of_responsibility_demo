@@ -1,4 +1,6 @@
-package com.example.cor.domain;
+package com.example.cor.handler;
+
+import com.example.cor.domain.Request;
 
 /**
  * Abstract base class for elements in a chain of responsibility pattern, specifically for handling requests.
