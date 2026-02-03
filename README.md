@@ -13,7 +13,6 @@ The chain is constructed by three handlers, and the request is handled one by on
 
 Each handler processes the request **AND** passes it to the next handler, and will stop if the next handler is null.
 
-
 Output example:
 ```text
 Handler 1 handled request_1770015006205
@@ -23,3 +22,6 @@ Handler 1 handled request_1770015016206
 Handler 2 handled request_1770015016206
 Handler 3 handled request_1770015016206
 ```
+## Add more handlers
+1. Extends `com.example.cor.handler.AbstractRequestHandlerChainElement` and override `doHandle` method.
+2. Annotate the new handler with `@Order(n)` where n is the order of the handler.
